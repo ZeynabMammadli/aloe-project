@@ -1,0 +1,12 @@
+@font-face{
+    font-family:"in-regular";
+    src:url("../fonts/Inter-Regular.ttf")
+}
+@font-face{
+    font-family:"in-medium";
+    src:url("../fonts/Inter-Medium.ttf")
+}
+@font-face{
+    font-family:"in-bold";
+    src:url("../fonts/Inter-Bold.ttf")
+}
