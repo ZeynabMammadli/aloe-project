@@ -104,10 +104,67 @@ $('.blog-carousel').owlCarousel({
             items:1
         },
         600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+    }
+});
+
+$('.family-carousel').owlCarousel({
+    loop:true,
+    margin:16,
+    nav:true,
+    // autoplay:true,
+    // autoplayTimeout:2000,  
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
             items:3
         },
         1000:{
-            items:2 
+            items:6 
+        }
+    }
+});
+$('.block-carousel').owlCarousel({
+    loop:true,
+    margin:16,
+    nav:true,
+    // autoplay:true,
+    // autoplayTimeout:2000,  
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1 
+        }
+    }
+});
+
+$('.baclofen-carousel').owlCarousel({
+    loop:true,
+    margin:16,
+    // nav:false,
+    // dots:true,
+    // autoplay:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1 
         }
     }
 });

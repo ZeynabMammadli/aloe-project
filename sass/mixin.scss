@@ -1,0 +1,28 @@
+@mixin text-style{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "in-regular";
+    color: #8A94A6;
+}
+@mixin list-style{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "in-regular";
+    color: $green;
+    background-color: #F0FAF2;
+}
+@mixin textt-style{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "in-regular";
+    color:#050F21;
+}
+@mixin listt-style{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "in-regular";
+}

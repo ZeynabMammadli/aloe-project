@@ -1,7 +1,7 @@
 header{
     .head-top{
         padding: 16px 0;
-        background-color: #618568;
+        background-color: $color;
         .head-inner{
             display: flex;
             justify-content: center;
@@ -22,7 +22,7 @@ header{
                     padding: 8px 12px;
                     border-radius: 8px;
                     margin-left: 16px;
-                    color: #618568;
+                    color: $color;
                 }
              
         }
