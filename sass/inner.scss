@@ -1659,6 +1659,7 @@ body{
         align-items: center;
         justify-content: center;
         border-radius:8px;
+        height: 100%;
     }
 }
 .baclofen-all{
@@ -1952,14 +1953,41 @@ body{
     .empty-all{
         width: 100%;
         background-color: #fff;
-       padding: 50px;
-       border-radius: 8px;
-       border:1px solid#EDEFF2;
-   .empty-img{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       margin-bottom: 32px;
+        padding: 50px;
+        border-radius: 8px;
+        border:1px solid#EDEFF2;
+       .empty-inner{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           h6{
+            font-size: 16px;
+            line-height: 24px;
+            font-family: "in-medium";
+            color:#050F21;
+            margin-top: 32px;
+           }
+           p{
+            font-size: 13px;
+            line-height: 24px;
+            font-family: "in-regular";
+            color:#8A94A6; 
+           }
+           a{
+               display: block;
+               background-color: #39B54A;
+               color:#fff;
+               font-size: 13px;
+               line-height: 24px;
+               font-family: "in-regular";
+               padding: 10px 12px;
+               border-radius: 8px;
+               margin-top: 24px;
+
+           }
+       }
+ 
       
        img{
         display: flex;
@@ -1976,43 +2004,9 @@ body{
 
        }
    }
-   .empty-text{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       h6{
-           font-size: 16px;
-           line-height: 24px;
-           color:#050F21;
-           font-family: "in-medium";
-       }
-   }
-   .empty-textt{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-       p{
-           font-size: 14px;
-           line-height: 24px;
-           color:#8A94A6;
-           font-family:"in-regular";
-       }
-   }
-   .empty-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     a{
-        background-color: #39B54A;
-        color:#fff;
-        font-size: 14px;
-        line-height: 24px;
-        font-family:"in-regular";
-        padding: 10px 12px;
-        border-radius: 8px;
-     }
-   }
-   
-    }
+ 
+  
+
+     
+ 
 }

@@ -1713,6 +1713,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+  height: 100%;
 }
 
 .baclofen-all {
@@ -1999,13 +2000,37 @@ body {
   border-radius: 8px;
   border: 1px solid #EDEFF2;
 }
-.empty-part .empty-all .empty-img {
+.empty-part .empty-all .empty-inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
+  flex-direction: column;
 }
-.empty-part .empty-all .empty-img img {
+.empty-part .empty-all .empty-inner h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "in-medium";
+  color: #050F21;
+  margin-top: 32px;
+}
+.empty-part .empty-all .empty-inner p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "in-regular";
+  color: #8A94A6;
+}
+.empty-part .empty-all .empty-inner a {
+  display: block;
+  background-color: #39B54A;
+  color: #fff;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "in-regular";
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+.empty-part .empty-all img {
   display: flex;
   width: 80px;
   height: 80px;
@@ -2014,43 +2039,6 @@ body {
   background-color: #F4F5F7;
   padding: 10px;
   border-radius: 100%;
-}
-.empty-part .empty-all .empty-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.empty-part .empty-all .empty-text h6 {
-  font-size: 16px;
-  line-height: 24px;
-  color: #050F21;
-  font-family: "in-medium";
-}
-.empty-part .empty-all .empty-textt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-.empty-part .empty-all .empty-textt p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #8A94A6;
-  font-family: "in-regular";
-}
-.empty-part .empty-all .empty-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.empty-part .empty-all .empty-link a {
-  background-color: #39B54A;
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "in-regular";
-  padding: 10px 12px;
-  border-radius: 8px;
 }
 
 .order-all {
